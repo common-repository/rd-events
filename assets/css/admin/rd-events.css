@@ -1,0 +1,58 @@
+/**
+ * Rundiz events admin page css.
+ */
+
+
+.rd-events-datetime-container {
+    clear: both;
+    content: '';
+}
+.rd-events-datetime-container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.rd-events-datetime-container h4,
+.rd-events-location-container h4 {
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 1200px) {
+    .rd-events-datetime-column {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+.rd-events-date-field {
+    width: 160px;
+}
+.rd-events-time-field {
+    width: 110px;
+}
+
+
+.rd-events-location-title {
+    display: block;
+    font-weight: 700;
+}
+
+
+.rd-events-map {
+    background-color: rgba(150, 150, 150, 0.1);
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+@media (min-height: 600px) and (max-height: 999px) {
+    .rd-events-map {
+        height: 450px;
+    }
+}
+@media (min-height: 1000px) {
+    .rd-events-map {
+        height: 600px;
+    }
+}

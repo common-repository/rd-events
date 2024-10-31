@@ -1,0 +1,21 @@
+/**
+ * Rundiz Events map css
+ */
+
+
+.rundiz-events-map {
+    background-color: rgba(150, 150, 150, 0.1);
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+@media (min-height: 600px) and (max-height: 999px) {
+    .rundiz-events-map {
+        height: 450px;
+    }
+}
+@media (min-height: 1000px) {
+    .rundiz-events-map {
+        height: 600px;
+    }
+}

@@ -1,0 +1,756 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rundiz Events\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rd-events\n"
+"POT-Creation-Date: 2023-01-24T18:41:32+07:00\n"
+"PO-Revision-Date: 2023-01-24 18:42+0700\n"
+"Last-Translator: Vee W.\n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;translate_nooped_plural;esc_html__;"
+"esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../vendor\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#. Plugin Name of the plugin
+msgid "Rundiz Events"
+msgstr "Rundiz Events"
+
+#. Plugin URI of the plugin
+msgid "https://rundiz.com/?p=319"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your events and display in the calendar or list."
+msgstr "จัดการเหตุการณ์และแสดงมันบนด้านหน้าเว็บ."
+
+#. Author of the plugin
+msgid "Vee Winch"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://rundiz.com"
+msgstr ""
+
+#: App/Controllers/Admin/Events/EventsManagePosts.php:34
+msgid "Event date"
+msgstr "วันที่เหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsManagePosts.php:35
+#: App/Controllers/Front/Shortcodes/AvailableShortcodes.php:55 App/templates/single.php:42
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventLocation_v.php:39
+msgid "Location"
+msgstr "สถานที่"
+
+#: App/Controllers/Admin/Events/EventsManagePosts.php:73
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:82
+msgid "All day"
+msgstr "ทั้งวัน"
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:35
+msgid "The field date on start and end are not exists."
+msgstr "ช่องวันที่เริ่มและสิ้นสุดไม่ปรากฏ."
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:38
+msgid "The start date is incorrect date format."
+msgstr "รูปแบบวันที่เริ่มไม่ถูกต้อง."
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:41
+msgid "The end date is incorrect date format."
+msgstr "รูปแบบวันที่สิ้นสุดไม่ถูกต้อง."
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:44
+msgid "The selected end date must be after start date."
+msgstr "วันที่สิ้นสุดต้องอยู่หลังวันที่เริ่ม."
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:47
+msgid "You had entered invalid time values."
+msgstr "คุณได้กรอกเวลาไม่ถูกต้อง."
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:161
+msgid "Event Date"
+msgstr "วันที่เหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsMetaboxes.php:163
+msgid "Event Location"
+msgstr "สถานที่เหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:41
+msgid "Events"
+msgstr "เหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:42
+msgid "Event"
+msgstr "เหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:43
+msgid "Add New Event"
+msgstr "เพิ่มเหตุการณ์ใหม่"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:44
+msgid "Edit Event"
+msgstr "แก้ไขเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:45
+msgid "New Event"
+msgstr "เหตุการณ์ใหม่"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:46
+msgid "View Event"
+msgstr "ดูเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:47
+msgid "View Events"
+msgstr "ดูเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:48
+msgid "Search Events"
+msgstr "ค้นหาเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:49
+msgid "No event found."
+msgstr "ไม่พบเหตุการณ์."
+
+#: App/Controllers/Admin/Events/EventsPostType.php:50
+msgid "No event found in trash."
+msgstr "ไม่พบเหตุการณ์ในถังขยะ."
+
+#: App/Controllers/Admin/Events/EventsPostType.php:51
+msgid "All Events"
+msgstr "เหตุการณ์ทั้งหมด"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:52
+msgid "Event Archives"
+msgstr "คลังเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:53
+msgid "Insert into event"
+msgstr "เพิ่มในเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:54
+msgid "Upload to this event"
+msgstr "อัพโหลดไปยังเหตุการณ์นี้"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:55
+msgid "Filter events list"
+msgstr "กรองรายการเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:56
+msgid "Events list navigation"
+msgstr "นำทางรายการเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:57
+msgid "Events list"
+msgstr "รายการเหตุการณ์"
+
+#: App/Controllers/Admin/Events/EventsPostType.php:62
+msgid "Manage events and display it on front-end."
+msgstr "จัดการเหตุการณ์และแสดงมันบนด้านหน้าเว็บ."
+
+#: App/Controllers/Admin/Settings.php:28
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#: App/Controllers/Front/EnqueueStyleScript.php:64 App/Widgets/CalendarWidget.php:62
+msgid "Day"
+msgstr "วัน"
+
+#: App/Controllers/Front/EnqueueStyleScript.php:65 App/Widgets/CalendarWidget.php:63
+msgid "Week"
+msgstr "สัปดาห์"
+
+#: App/Controllers/Front/EnqueueStyleScript.php:66 App/Widgets/CalendarWidget.php:64
+msgid "Month"
+msgstr "เดือน"
+
+#: App/Controllers/Front/EnqueueStyleScript.php:67 App/Widgets/CalendarWidget.php:65
+msgid "Today"
+msgstr "วันนี้"
+
+#: App/Controllers/Front/Shortcodes/AvailableShortcodes.php:44 App/templates/single.php:30
+msgid "Event date/time"
+msgstr "วัน/เวลา เหตุการณ์"
+
+#: App/Controllers/Front/Shortcodes/AvailableShortcodes.php:47 App/templates/single.php:36
+msgid "All day event."
+msgstr "เหตุการณ์ทั้งวัน."
+
+#: App/Controllers/Front/Shortcodes/AvailableShortcodes.php:85 App/templates/archive.php:35
+#: App/Widgets/CalendarWidget.php:157 example/archive-use-normal-code.php:16
+msgid "Getting events data"
+msgstr "กำลังดึงข้อมูลเหตุการณ์"
+
+#: App/templates/single.php:55
+msgid "Open on Google Maps"
+msgstr "เปิดบนกูเกิลแมปส์"
+
+#: App/templates/single.php:63
+msgid "Not found"
+msgstr "ไม่พบ"
+
+#: App/templates/single.php:64
+msgid "Nothing found."
+msgstr "ไม่พบอะไร."
+
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:54
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:56
+msgid "Event start"
+msgstr "เหตุการณ์เริ่ม"
+
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:58
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:70
+msgid "Date"
+msgstr "วันที่"
+
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:61
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:73
+msgid "Time"
+msgstr "เวลา"
+
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:66
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventDate_v.php:68
+msgid "Event end"
+msgstr "เหตุการณ์สิ้นสุด"
+
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventLocation_v.php:37
+msgid "Enter address or click on the map below"
+msgstr "หรอกที่อยู่หรือคลิกบนแผนที่ด้านล่าง"
+
+#: App/Views/Admin/Events/EventsMetaboxes/metaboxEventLocation_v.php:52
+msgid "Clear"
+msgstr "ล้างค่า"
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:2
+msgid "Rundiz Events settings"
+msgstr "ตั้งค่า Rundiz Events"
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:19
+msgid "Google Map API Key"
+msgstr "รหัส API ของ Google Maps"
+
+#. translators: %1$s: Link to Google APIs manager, %2$s: Highlight Google Maps JS API text.
+#: App/Views/Admin/Settings/settingsPageAction_v.php:26
+msgid "Go to %1$s and enable %2$s."
+msgstr "ไปยัง %1$s  และเปิดใช้งาน %2$s."
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:27
+msgid "Google APIs Manager"
+msgstr ""
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:28
+msgid "Maps JavaScript API"
+msgstr ""
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:29
+msgid "Places API"
+msgstr ""
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:30
+msgid "Geocoding API"
+msgstr ""
+
+#. translators: %s: Credentials text.
+#: App/Views/Admin/Settings/settingsPageAction_v.php:35
+msgid "Go to %s and create API key and then copy the key to this input."
+msgstr "ไปยัง %s และสร้างรหัส API จากนั้นคัดลอกรหัสมาใส่ในช่องนี้."
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:36
+msgid "Credentials"
+msgstr ""
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:43
+msgid "Use Ajax events"
+msgstr "ใช้ Ajax"
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:47
+msgid "Check this to use Ajax to get events, otherwise it will render all events into js at once."
+msgstr "ติ๊กกล่องนี้เพื่อใช้ Ajax ในการดึงค่าเหตุการณ์ต่างๆ, หากไม่ติ๊กมันจะส่งค่าเหตุการณ์ทั้งหมดในทีเดียว."
+
+#: App/Views/Admin/Settings/settingsPageAction_v.php:51
+msgid ""
+"If you want to reduce connection to server (such as ajax) or if you want to generate static HTML "
+"from WordPress, uncheck this box can help your front-end display events without any request to "
+"server."
+msgstr ""
+"ถ้าคุณต้องการลดการเชื่อมต่อไปยังเซิร์ฟเวอร์ (อย่างเช่น Ajax) หรือถ้าคุณต้องการสร้างเว็บแบบ HTML คงที่จากเวิร์ดเพรส, "
+"ไม่ติ๊กกล่องนี้จะช่วยให้หน้าเว็บของคุณแสดงเหตุการณ์โดยไม่ต้องดึงข้อมูลจากเซิร์ฟเวอร์."
+
+#: App/Widgets/CalendarWidget.php:32
+msgid "Events Calendar"
+msgstr "ปฏิทินเหตุการณ์"
+
+#: App/Widgets/CalendarWidget.php:34
+msgid "Display events in the calendar widget."
+msgstr "แสดงเหตุการณ์ในวิดเจ็ตปฏิทิน."
+
+#: App/Widgets/CalendarWidget.php:161
+msgid "See more"
+msgstr "ดูเพิ่มเติม"
+
+#~ msgid "Your WordPress version does not meet the requirement. (%1$s < %2$s)."
+#~ msgstr "รุ่นเวิร์ดเพรสของคุณไม่ตรงตามความต้องการขั้นต่ำ. (%1$s < %2$s)."
+
+#~ msgid "Your PHP version does not meet the requirement. (%1$s < %2$s)."
+#~ msgstr "รุ่น PHP ของคุณไม่ตรงตามความต้องการขั้นต่ำ. (%1$s < %2$s)."
+
+#~ msgid "Donate"
+#~ msgstr "บริจาค"
+
+#~ msgid "You do not have permission to access this page."
+#~ msgstr "คุณไม่ได้รับอนุญาตให้เข้าถึงหน้านี้."
+
+#~ msgid "Settings saved."
+#~ msgstr "บันทึกการตั้งค่าแล้ว."
+
+#~ msgid "Dismiss this notice."
+#~ msgstr "รับทราบ."
+
+#~ msgid "Title"
+#~ msgstr "ไตเติ้ล"
+
+#, fuzzy
+#~| msgid "Event Archives"
+#~ msgid "Events Archive"
+#~ msgstr "คลังเหตุการณ์"
+
+#~ msgid "Calendar widget"
+#~ msgstr "วิดเจ็ตปฏิทิน"
+
+#~ msgid ""
+#~ "You are using PHP %s which does not meet minimum requirement. Please consider upgrade PHP "
+#~ "version or contact plugin author for this help.<br><br>Minimum requirement:<br>PHP %s"
+#~ msgstr ""
+#~ "คุณกำลังใช้ PHP %s ซึ่งไม่ตรงความต้องการขั้นต่ำ. กรุณาพิจารณาอัพเกรดรุ่น PHP หรือติดต่อผู้เขียนปลั๊กอินเพื่อขอความช่วยเหลือ."
+#~ "<br><br>ความต้องการขั้นต่ำ:<br>PHP %s"
+
+#~ msgid "Minimum requirement of PHP version does not meet."
+#~ msgstr "รุ่นของ PHP ไม่ตรงความต้องการขั้นต่ำ."
+
+#~ msgid "You can leave this empty if there is no buyer ID available for you."
+#~ msgstr "คุณสามารถปล่อยค่านี้ว่างได้ถ้าไม่มีข้อมูล ID ผู้ซื้อมาให้."
+
+#~ msgid "Buyer ID"
+#~ msgstr "ID ผู้ซื้อ"
+
+#~ msgid "Check this box for automatic check for the update."
+#~ msgstr "ติ๊กกล่องนี้เพื่ออัพเดตอัตโนมัติ."
+
+#~ msgid "Check for update"
+#~ msgstr "ตรวจการอัพเดต"
+
+#~ msgid "Activate"
+#~ msgstr "เปิดใช้งาน"
+
+#~ msgid "You must click on activate button to verify activation before save changes."
+#~ msgstr "คุณต้องคลิกเปิดใช้งานเพื่อตรวจสอบการใช้งานก่อนกดบันทึก."
+
+#~ msgid "Upload"
+#~ msgstr "อัพโหลด"
+
+#~ msgid "Remove"
+#~ msgstr "เอาออก"
+
+#~ msgid "The playlist you entered was not found on YouTube."
+#~ msgstr "รายการเล่นที่คุณระบุไม่พบบนยูทูป"
+
+#~ msgid "YouTube API key is invalid."
+#~ msgstr "กุญแจ API สำหรับยูทูปไม่ถูกต้อง"
+
+#~ msgid ""
+#~ "The administrator did not enter YouTube API key. Please enter YouTube API key from settings page."
+#~ msgstr "ผู้ดูแลยังไม่ได้กรอกกุญแจ API สำหรับยูทูป. โปรดกรอกได้จากหน้าตั้งค่า"
+
+#~ msgid "Call to <code>%s</code>"
+#~ msgstr "เรียกไปยัง <code>%s</code>"
+
+#~ msgid ""
+#~ "Access this variable as global <code>%s</code>. This variable will be change, up to config in "
+#~ "AppTrait."
+#~ msgstr "เข้าถึงตัวแปรนี้แบบ global <code>%s</code>. ตัวแปรนี้จะเปลี่ยน, ขึ้นอยู่กับการกำหนดใน AppTrait."
+
+#~ msgid "Now, you can use this variable to access its array key anywhere."
+#~ msgstr "ตอนนี้คุณสามารถใช้ตัวแปรนี้เพื่อเข้าถึงคีย์อะเรย์ของมันได้ทุกที่."
+
+#~ msgid ""
+#~ "Please visit <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google "
+#~ "Projects</a> and create or open your project by click on menu &gt; API Manager."
+#~ msgstr ""
+#~ "กรุณาไปที่ <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google "
+#~ "Projects</a> แล้วทำการสร้างหรือเปิดโปรเจ็คของคุณโดยคลิกบนเมนู &gt; API Manager."
+
+#~ msgid ""
+#~ "In overview page click on <strong>YouTube Data API</strong> and <strong>Enable</strong> button."
+#~ msgstr "ในหน้า overview คลิกบน <strong>YouTube Data API</strong> และปุ่ม <strong>Enable</strong>."
+
+#~ msgid ""
+#~ "Click on <strong>Create credentials</strong> then click <strong>API key</strong> and choose "
+#~ "<strong>Server key</strong>."
+#~ msgstr ""
+#~ "คลิกที่ <strong>Create credentials</strong> แล้วคลิก <strong>API key</strong> แล้วเลือก <strong>Server "
+#~ "key</strong>."
+
+#~ msgid ""
+#~ "Enter your desired name and click on <strong>Create</strong>. You may add the<strong>Accept "
+#~ "requests from these server IP addresses</strong> if you want."
+#~ msgstr ""
+#~ "กรอกชื่อที่คุณต้องการแล้วคลิกบน <strong>Create</strong>. คุณอาจเพิ่มในช่อง <strong>Accept requests from "
+#~ "these server IP addresses</strong> ถ้าหากต้องการ."
+
+#~ msgid "Use API from <strong>API key</strong> line."
+#~ msgstr "ใช้ API จากบรรทัด <strong>API key</strong>."
+
+#~ msgid "Use this shortcode to display YouTube video and playlist. <code>%s</code>"
+#~ msgstr "ใช้ช็อตโค้ดนี้เพื่อแสดงวิดีโอยูทูปและรายการเล่น. <code>%s</code>"
+
+#~ msgid "Replace <strong>...</strong> inside shortcode with YouTube video URL or playlist URL."
+#~ msgstr "แทนที่ <strong>...</strong> ข้างในช็อคโค้ดด้วย URL วิดีโอของยูทูปหรือ URL รายการเล่น."
+
+#~ msgid "Display YouTube video"
+#~ msgstr "แสดงวิดีโอยูทูป"
+
+#~ msgid "For example:"
+#~ msgstr "ตัวอย่าง"
+
+#~ msgid "<code>%s</code> This will be display YouTube video."
+#~ msgstr "<code>%s</code> นี้จะแสดงยูทูปวิดีโอ."
+
+#~ msgid "<code>%s</code> This will be display YouTube video as well."
+#~ msgstr "<code>%s</code> นี้ก็จะแสดงยูทูปวิดีโอเช่นกัน."
+
+#~ msgid "YouTube embedded player parameters"
+#~ msgstr "พารามิเตอร์ของตัวเล่นฝังของยูทูป"
+
+#~ msgid ""
+#~ "You can change the player appearance and controls by setting in <strong>Video settings</strong> "
+#~ "tab."
+#~ msgstr "คุณสามารถเปลี่ยนการแสดงผลตัวเล่นและการควบคุมโดยตั้งค่าในแท็บ <strong>ตั้งค่าวิดีโอ</strong>."
+
+#~ msgid ""
+#~ "However, you can override those settings by add YouTube embedded player parameters into "
+#~ "shortcode."
+#~ msgstr "อย่างไรก็ตาม, คุณสามารถเขียนทับค่าต่างๆเหล่านั้นโดยเพิ่มพารามิเตอร์ลงในช็อตโค้ด."
+
+#~ msgid ""
+#~ "Please refer to this <a href=\"https://developers.google.com/youtube/player_parameters\" "
+#~ "target=\"_blank\">document page</a>."
+#~ msgstr ""
+#~ "โปรดอ้างอิงจาก <a href=\"https://developers.google.com/youtube/player_parameters\" "
+#~ "target=\"_blank\">หน้าเอกสารนี้</a>."
+
+#~ msgid "For example: I will set the player to autoplay and do not auto hide video controls."
+#~ msgstr "ตัวอย่าง: ฉันจะกำหนดตัวเล่นให้เล่นอัตโนมัติและไม่ต้องซ่อนตัวควบคุมวิดีโอ."
+
+#~ msgid "Display YouTube playlist"
+#~ msgstr "แสดงรายการเล่นยูทูป"
+
+#~ msgid ""
+#~ "YouTube playlist use same shortcode with video. URL of YouTube playlist must <strong>NOT</"
+#~ "strong> contain video id."
+#~ msgstr "รายการเล่นยูทูปใช้ช็อตโค้ดเดียวกับวิดีโอ. URL ของรายการเล่นต้อง<strong>ไม่มี</strong>ไอดีของวิดีโอ."
+
+#~ msgid "<code>%s</code> This is correct YouTube playlist URL."
+#~ msgstr "<code>%s</code> นี้คือ URL รายการเล่นของยูทูปที่ถูกต้อง."
+
+#~ msgid ""
+#~ "<del><code>%s</code></del> This is incorrect YouTube playlist URL due to it detects video id."
+#~ msgstr "<del><code>%s</code></del> นี้คือ URL รายการเล่นของยูทูปที่ไม่ถูกต้อง เนื่องจากมันตรวจพบไอดีของวิดีโอ."
+
+#~ msgid "<code>%s</code> This will be display YouTube playlist."
+#~ msgstr "<code>%s</code> นี้จะแสดงรายการเล่นของยูทูป."
+
+#~ msgid "YouTube embedded playlist parameters"
+#~ msgstr "พารามิเตอร์รายการเล่นของยูทูป"
+
+#~ msgid ""
+#~ "Same as player parameters, please refer to this <a href=\"https://developers.google.com/youtube/"
+#~ "player_parameters\" target=\"_blank\">document page</a>."
+#~ msgstr ""
+#~ "เหมือนกันกับพารามิเตอร์ของเครื่องเล่น, โปรดอ้างอิง<a href=\"https://developers.google.com/youtube/"
+#~ "player_parameters\" target=\"_blank\">หน้าเอกสารนี้</a>."
+
+#~ msgid ""
+#~ "However YouTube playlist html elements that will be generated may not use all of these "
+#~ "parameters."
+#~ msgstr "อย่างไรก็ตาม HTML รายการเล่นยูทูปที่จะถูกสร้างนั้นจะไม่ได้ใช้พารามิเตอร์เหล่านี้ทั้งหมด."
+
+#~ msgid ""
+#~ "Please check your settings in <strong>Playlist settings</strong> and make sure that "
+#~ "<strong>YouTube API settings</strong> is entered."
+#~ msgstr ""
+#~ "โปรดตรวจการตั้งค่าของคุณใน<strong>ตั้งค่ารายการเล่น</strong> และให้แน่ใจว่า<strong>การตั้งค่า API ยูทูป</"
+#~ "strong>ได้กรอกแล้ว."
+
+#~ msgid "Notice"
+#~ msgstr "โปรดทราบ"
+
+#~ msgid ""
+#~ "Please make sure that your shortcode does not contain html link because TinyMCE editor will be "
+#~ "automatically convert URL to link."
+#~ msgstr "โปรดแน่ใจว่าช็อตโค้ดไม่ได้เป็นลิ้ง HTML เพราะว่าเครื่องมือแก้ไข TinyMCE จะแปลงมันให้อัตโนมัติ."
+
+#~ msgid ""
+#~ "Do not use shift+enter to enter new line after shortcode because it can break the html elements, "
+#~ "use <code>&lt;div&gt;...&lt;/div&gt;</code> in editor's <strong>Text view</strong> instead."
+#~ msgstr ""
+#~ "อย่าใช้ shift+enter เพื่อขึ้นบรรทัดใหม่หลังจากช็อตโค้ด เพราะว่ามันจะทำลาย HTML, ใช้ <code>&lt;div&gt;...&lt;/"
+#~ "div&gt;</code> ในเครื่องมือแก้ไขใน<strong>มุมมองตัวอักษร</strong>แทน."
+
+#~ msgid "Click this button to clear playlist cache."
+#~ msgstr "คลิกที่ปุ่มนี้เพื่อล้างแคชรายการเล่น."
+
+#~ msgid "Cache cleared."
+#~ msgstr "แคชล้างเรียบร้อยแล้ว."
+
+#~ msgid ""
+#~ "To overriden playlist design in your website, please copy source code from <strong>%s</strong>."
+#~ msgstr "การจะออกแบบรายการเล่นทับของเก่าในเว็บไซต์ของคุณ, โปรดคัดลอกซอร์สโค้ดจาก <strong>%s</strong>."
+
+#~ msgid "Create template file in your theme directory. Example: <strong>%s</strong>"
+#~ msgstr "สร้างเทมเพลทไฟล์ในโฟลเดอร์ของธีม. ตัวอย่าง: <strong>%s</strong>"
+
+#~ msgid "Paste the source code that you copied into this template file and start your design."
+#~ msgstr "วางซอร์สโค้ดที่คัดลอกแล้วลงในไฟล์เทมเพลทนี้และเริ่มออกแบบ."
+
+#~ msgid ""
+#~ "Use <code>wp_dequeue_style('rdyte-playlist-css');</code> and <code>wp_dequeue_script('rdyte-"
+#~ "playlist-js');</code> in your theme to change to your own stylesheet and script, if need."
+#~ msgstr ""
+#~ "ใช้ <code>wp_dequeue_style('rdyte-playlist-css');</code> และ <code>wp_dequeue_script('rdyte-"
+#~ "playlist-js');</code> ในธีมของคุณเพื่อเปลี่ยนไปยังสไตล์และสคริปต์ของคุณเอง, ถ้าต้องการ."
+
+#~ msgid "YouTube API settings"
+#~ msgstr "ตั้งค่า API ยูทูป"
+
+#~ msgid "YouTube API key"
+#~ msgstr "กุญแจ API ยูทูป"
+
+#~ msgid ""
+#~ "Show soft error message if there is no API key entered while using playlist shortcode or if the "
+#~ "API key is incorrect."
+#~ msgstr "แสดงข้อความข้อผิดพลาดเล็กน้อยถ้าไม่มีกุญแจ API ในขณะที่ใช้รายการเช่นช็อตโค้ด หรือถ้ากุญแจ API ไม่ถูกต้อง."
+
+#~ msgid "Off"
+#~ msgstr "ปิด"
+
+#~ msgid "On"
+#~ msgstr "เปิด"
+
+#~ msgid "Show errors API key"
+#~ msgstr "แสดงข้อผิดพลาดกุญแจ API"
+
+#~ msgid "Playlist settings"
+#~ msgstr "ตั้งค่ารายการเล่น"
+
+#~ msgid "Use cache while get YouTube playlist data to reduce quota usage."
+#~ msgstr "ใช้แคชขณะดึงรายการเล่นจากยูทูปจะช่วยลดโควต้าการใช้งานได้."
+
+#~ msgid "Cache"
+#~ msgstr "แคช"
+
+#~ msgid "Cache will be expire in days you choose."
+#~ msgstr "แคชจะหมดอายุในจำนวนวันที่เลือก."
+
+#~ msgid "Cache expiration"
+#~ msgstr "แคชหมดอายุ"
+
+#~ msgid ""
+#~ "Swith on to retreive additional video resource on YouTube (contentDetails). Such as duration, "
+#~ "dimension, definition, caption. This settings require <a href=\"https://developers.google.com/"
+#~ "youtube/v3/docs/videos/list\" target=\"_blank\">2 more quota</a>."
+#~ msgstr ""
+#~ "เปิดใช้เพื่อดึงข้อมูลวิดีโอบน YouTube (contentDetails). ตัวอย่างเช่น ความยาว, ความละเอียด, คำบรรยาย. "
+#~ "การตั้งค่านี้ต้องการ <a href=\"https://developers.google.com/youtube/v3/docs/videos/list\" "
+#~ "target=\"_blank\">2 โควต้าเพิ่มเติม</a>."
+
+#~ msgid "Get video resources"
+#~ msgstr "ดึงทรัพยากรวิดีโอ"
+
+#~ msgid "Design playlist"
+#~ msgstr "ออกแบบรายการเล่น"
+
+#~ msgid "Auto play"
+#~ msgstr "เล่นอัตโนมัติ"
+
+#~ msgid "Allow fullscreen"
+#~ msgstr "อนุญาตเต็มจอ"
+
+#~ msgid ""
+#~ "Set to <strong>on</strong> to closed captions to be shown, even if the user has turned captions "
+#~ "off. The default behavior is based on user preference."
+#~ msgstr "กำหนดเป็น <strong>เปิด</strong> เพื่อแสดงคำบรรยาย, แม้ว่าถ้าผู้ใช้ปิดแล้ว. ค่าเดิมคืออยู่บนการตั้งค่าของผู้ใช้."
+
+#~ msgid "Closed caption"
+#~ msgstr "คำบรรยายแบบปิด"
+
+#~ msgid "Display information like the video title and uploader before the video starts playing."
+#~ msgstr "แสดงข้อมูลอย่างเช่นไตเติลวิดีโอและผู้อัพโหลดก่อนเริ่มเล่นวิดีโอ."
+
+#~ msgid "Display video information"
+#~ msgstr "แสดงข้อมูลวิดีโอ"
+
+#~ msgid ""
+#~ "This lets you use a YouTube player that does not show a YouTube logo. Note that a small YouTube "
+#~ "text label will still display in the upper-right corner of a paused video when the user's mouse "
+#~ "pointer hovers over the player. "
+#~ msgstr ""
+#~ "นี้จะอนุญาตให้คุณใช้เครื่องเล่นยูทูปโดยไม่แสดงยูทูปโลโก้. "
+#~ "โปรดทราบว่าข้อความยูทูปเล็กๆจะแสดงด้านบนขวาเมื่อหยุดเล่นวิดีโอชั่วคราวและเมาส์ชี้อยู่เหนือเครื่องเล่นนั้น."
+
+#~ msgid "Hide YouTube logo"
+#~ msgstr "ซ่อนโลโก้ยูทูป"
+
+#~ msgid ""
+#~ "Sets the player's interface language. The parameter value is an <a href=\"http://www.loc.gov/"
+#~ "standards/iso639-2/php/code_list.php\" target=\"_blank\">ISO 639-1 two-letter language code</a> "
+#~ "or a fully specified locale. For example, fr and fr-ca are both valid values."
+#~ msgstr ""
+#~ "กำหนดภาษาของตัวเล่นวิดีโอ. ค่าที่กำหนดเป็น <a href=\"http://www.loc.gov/standards/iso639-2/php/code_list."
+#~ "php\" target=\"_blank\">ISO 639-1 รหัส 2 ตัวอักษร</a> หรือชื่อภาษา. ตัวอย่าง fr และ fr-ca มีค่าเท่ากัน."
+
+#~ msgid "Interface language"
+#~ msgstr "ภาษาตัวเล่นวิดีโอ"
+
+#~ msgid "Keyboard controls"
+#~ msgstr "ควบคุมคีย์บอร์ด"
+
+#~ msgid "Set to off to play use fullscreen playback, set to on to play use inline playback."
+#~ msgstr "ตั้งไปที่ปิดเพื่อเล่นใช้เครื่องเล่นเต็มจอ, ปรับไปที่เปิดเพื่อเช่นในหน้าต่างเว็บ."
+
+#~ msgid "Play inline for IOS"
+#~ msgstr "เล่นในหน้าต่างสำหรับ IOS"
+
+#~ msgid "Player controls does not display in the player."
+#~ msgstr "ตัวควบคุมการเล่นไม่แสดงในเครื่องเล่น."
+
+#~ msgid "Player controls display in the player."
+#~ msgstr "ตัวควบคุมการเล่นแสดงในเครื่องเล่น."
+
+#~ msgid "Player controls display in the player. (Performance improvement.)"
+#~ msgstr "ตัวควบคุมการเล่นแสดงในเครื่องเล่น. (เพิ่มประสิทธิภาพความไว.)"
+
+#~ msgid "Player controls"
+#~ msgstr "ตัวควบคุมการเล่น"
+
+#~ msgid ""
+#~ "Specifies the color that will be used in the player's video progress bar to highlight the amount "
+#~ "of the video that the viewer has already seen. Setting the color parameter to white will disable "
+#~ "hide YouTube logo option."
+#~ msgstr ""
+#~ "กำหนดสีของสถานะการเล่นเพื่อแสดงวิดีโอที่เล่นไปแล้วเป็นความยาวเท่าใด. กำหนดสีเป็นสีขาวจะปิดใช้งานซ่อนการแสดงโลโก้ "
+#~ "YouTube."
+
+#~ msgid "Red"
+#~ msgstr "แดง"
+
+#~ msgid "White"
+#~ msgstr "ขาว"
+
+#~ msgid "Progress bar color"
+#~ msgstr "สีสถานะการเล่น"
+
+#~ msgid ""
+#~ "Choose wether the player should show related videos when playback of the initial video ends."
+#~ msgstr "เลือกว่าเครื่องเล่นจะแสดงวิดีโอที่เกี่ยวข้องเมื่อเล่นจบหรือไม่."
+
+#~ msgid "Related video"
+#~ msgstr "วิดีโอที่เกี่ยวข้อง"
+
+#~ msgid "Show by default"
+#~ msgstr "แสดงเป็นหลัก"
+
+#~ msgid "Not show by default"
+#~ msgstr "ไม่แสดงเป็นหลัก"
+
+#~ msgid "Video annotation"
+#~ msgstr "คำอธิบายประกอบวิดีโอ"
+
+#~ msgid ""
+#~ "Design how YouTube embedded video html element will be display. Use {youtube_iframe_video} as "
+#~ "iframe html element. Default value is <code>%s</code>"
+#~ msgstr ""
+#~ "ออกแบบว่าวิดีโอ HTML ยูทูปจะแสดงผลอย่างไร. ใช้ {youtube_iframe_video} แทน iframe. ค่าเดิมคือ <code>%s</"
+#~ "code>"
+
+#~ msgid "Video HTML element"
+#~ msgstr "วิดีโอ HTML"
+
+#~ msgid "Shortcode help"
+#~ msgstr "ความช่วยเหลือช็อตโค้ด"
+
+#~ msgid ""
+#~ "Set to <strong>on</strong> to closed captions to be shownt, even if the user has turned captions "
+#~ "off. The default behavior is based on user preference."
+#~ msgstr "กำหนดเป็น <strong>เปิด</strong> เพื่อปิดคำบรรยาย"
+
+#~ msgid ""
+#~ "Set to on to closed captions to be shownt, even if the user has turned captions off. The default "
+#~ "behavior is based on user preference."
+#~ msgstr "กำหนด"
+
+#~ msgid ""
+#~ "Please visit <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google "
+#~ "Projects</a> and create or open your project."
+#~ msgstr ""
+#~ "โปรดไปที่ <a href=\"https://console.developers.google.com/project\" target=\"_blank\">Google "
+#~ "Projects</a> และสร้างหรือเปิดโปรเจ็คของคุณ."
+
+#~ msgid "Go to APIs &amp; auth &gt; APIs and enable <strong>YouTube Data API</strong>."
+#~ msgstr "ไปยัง APIs &amp; auth &gt; APIs และเปิดใช้งาน <strong>YouTube Data API</strong>."
+
+#~ msgid "Click on <strong>Create new Key</strong> then click <strong>Server key</strong>."
+#~ msgstr "คลิกบน <strong>Create new Key</strong> จากนั้นคลิก <strong>Server key</strong>."
+
+#~ msgid "Click on <strong>Create</strong>. You may add accept IP if you want."
+#~ msgstr "คลิกที่ <strong>Create</strong>. คุณอาจเพิ่มรายการ IP ถ้าหากต้องการ."
+
+#~ msgid "Use API from API key line."
+#~ msgstr "ใช้ API จากบรรทัด API key."
+
+#~ msgid ""
+#~ "Use <code>wp_dequeue_style('okvyte-playlist-css');</code> and <code>wp_dequeue_script('okvyte-"
+#~ "playlist-js');</code> in your theme to change to your own stylesheet and script, if need."
+#~ msgstr ""
+#~ "ใช้ <code>wp_dequeue_style('okvyte-playlist-css');</code> และ <code>wp_dequeue_script('okvyte-"
+#~ "playlist-js');</code> ในธีมของคุณเพื่อเปลี่ยนสไตล์ชีทและสคริปต์ถ้าต้องการ."
+
+#~ msgid ""
+#~ "Swith on to retreive additional video resource on YouTube. Such as duration, dimension, "
+#~ "definition, caption. This settings require <a href=\"https://developers.google.com/youtube/v3/"
+#~ "docs/videos/list\" target=\"_blank\">2 more quota</a>."
+#~ msgstr ""
+#~ "เปิดใช้เพื่อรับข้อมูลทรัพยากรของวิดีโอเพิ่มเติมบนยูทูบ. เช่น ระยะเวลา, ขนาด, ความละเอียด, แคปชั่น. การตั้งค่านี้ต้องการ "
+#~ "<a href=\"https://developers.google.com/youtube/v3/docs/videos/list\" "
+#~ "target=\"_blank\">ใช้โควต้าเพิ่มอีก 2 หน่วย</a>."
+
+#~ msgid "Select how video controls will automatically hide after video begins playing."
+#~ msgstr "เลือกว่าตัวควบคุมวิดีโอจะซ่อนอัตโนมัติหลังจากเล่นอย่างไร."
+
+#~ msgid "Always visible"
+#~ msgstr "แสดงตลอด"
+
+#~ msgid "Auto hide but regardless player's dimensions"
+#~ msgstr "ซ่อนอัตโนมัติแต่ไม่สนใจขนาดวิดีโอ"
+
+#~ msgid "Auto hide if player has a 16:9 or 4:3 aspect ratio. Otherwise always visible"
+#~ msgstr "ซ่อนอัตโนมัติถ้าวิดีโอเป็น 16:9 หรือ 4:3. นอกนั้นแสดงตลอด."
+
+#~ msgid "Auto hide"
+#~ msgstr "ซ่อนอัตโนมัติ"
+
+#~ msgid "Light theme"
+#~ msgstr "ธีมสว่าง"
+
+#~ msgid "Dark theme"
+#~ msgstr "ธีมมืด"
+
+#~ msgid "Player theme"
+#~ msgstr "ธีมเครื่องเล่น"
